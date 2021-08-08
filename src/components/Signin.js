@@ -11,7 +11,7 @@ function SignIn() {
     return (
         
         <div style={{ display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center' }}>
-            <Button style={{ padding: '30px', fontSize: '20px', borderRadius: '20px', fontWeight: '600' ,backgroundColor: '#ff3939', color:'#FAFAFA'}} onClick={signInWithGoogle}>Sign In With Google</Button>
+            <Button style={{ padding: '30px', fontSize: '20px', borderRadius: '80px', fontWeight: '600' ,backgroundColor: '#ff3939', color:'#FAFAFA'}} onClick={signInWithGoogle}>Sign In With Google</Button>
         </div>
     )
 }
